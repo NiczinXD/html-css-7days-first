@@ -1,0 +1,86 @@
+.cabecalho{
+    display: flex;
+    background-color: black;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__div{
+    width: 90%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: aquamarine;
+}
+
+.cabecalho__div-logo{
+    /* width: 148px;
+    height: 27px; */
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+}
+
+.cabecalho__div-logo-texto{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto-basico);
+    text-align: left;
+}
+
+.cabecalho__div-link{
+    width: 800px;
+    /*height: 32px;*/
+    /*gap: 4px; */
+    display: flex;
+    text-decoration: none;
+    background-color: azure;
+}
+
+.cabecalho__div-link-link{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--cinza-basico);
+}
+
+.cabecalho__div-botoes{
+/*    width: 207px;
+    height: 44px;*/
+    display: flex;
+    gap: 12px;
+    background-color: azure;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cabecalho__div-botao-entrar{
+    height: 44px;
+    padding: 10px 18px 10px 18px;
+    gap: 8px;
+    font-weight: 500;
+    border: none;
+    color: var(--cinza-basico);
+    background-color: var(--branco);
+}
+
+.cabecalho__div-botao-vermelho{
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px;
+    padding: 10px, 18px, 10px, 18px;
+    gap: 8px;
+    font-weight: 500;
+    background-color: var(--vermelho-basico);
+    color: var(--branco);
+
+}

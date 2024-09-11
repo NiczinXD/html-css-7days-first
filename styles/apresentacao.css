@@ -1,0 +1,16 @@
+.secao__apresentacao{
+    display: flex;
+    height: 405px;
+    padding-right: 96px;
+    padding-left: 290px;
+    gap: 24px;
+    background-color: black;
+}
+
+.secao__apresentacao-divisao{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: aqua;
+}
