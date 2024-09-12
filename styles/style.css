@@ -2,9 +2,11 @@
 @import url("apresentacao.css");
 :root{
     --preto-basico: #3A404E;
+    --preto-basicov2: #101828;
     --cinza-basico: #667085;
     --vermelho-basico: #8E2424;
     --branco: #FFFFFF;
+    --hover-links-link: #333333;
     --fonte-principal: 'Inter', sans-serif;
 }
 

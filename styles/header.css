@@ -52,6 +52,10 @@
     color: var(--cinza-basico);
 }
 
+.cabecalho__div-link-link:hover{
+    color: var(--hover-links-link);
+}
+
 .cabecalho__div-botoes{
 /*    width: 207px;
     height: 44px;*/
@@ -82,5 +86,4 @@
     font-weight: 500;
     background-color: var(--vermelho-basico);
     color: var(--branco);
-
 }

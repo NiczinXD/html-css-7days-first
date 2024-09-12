@@ -1,16 +1,38 @@
 .secao__apresentacao{
     display: flex;
     height: 405px;
-    padding-right: 96px;
-    padding-left: 290px;
-    gap: 24px;
+    justify-content: center;
     background-color: black;
 }
 
 .secao__apresentacao-divisao{
     display: flex;
+    justify-content: center;
+    gap: 24px;
     align-items: center;
     text-align: center;
     flex-direction: column;
     background-color: aqua;
+}
+
+.secao__apresentacao-texto{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--vermelho-basico);
+}
+
+.secao__apresentacao-titulo{
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--preto-basicov2);
+}
+
+.secao__apresentacao-paragrafo {
+    width: 792px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-basico);
 }
