@@ -1,0 +1,43 @@
+.numeros{
+    /* width: 1440px; */
+    height: 288px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.numeros-divisao{
+    width: 90%;
+    height: 192px;
+    justify-content: space-between;
+    display: flex;
+    background-color: aquamarine;
+}
+
+.numeros-divisao-numero{
+    width: 280px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: azure;
+}
+
+.numeros-divisao-numero-titulo{
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--vermelho-basico);
+}
+
+.numeros-divisao-numero-titulo-paragrafo{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--preto-basicov2);    
+}
+
+.numeros-divisao-numero-paragrafo{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-basico);
+}
