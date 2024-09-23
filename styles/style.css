@@ -1,6 +1,8 @@
 @import url("header.css");
 @import url("apresentacao.css");
 @import url("numeros.css");
+@import url(procuraDeTalentos.css);
+
 :root{
     --preto-basico: #3A404E;
     --preto-basicov2: #101828;
@@ -8,6 +10,7 @@
     --vermelho-basico: #8E2424;
     --branco: #FFFFFF;
     --hover-links-link: #333333;
+    --cinza-clarinho: #EAECF0;
     --fonte-principal: 'Inter', sans-serif;
 }
 

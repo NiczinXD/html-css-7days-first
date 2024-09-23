@@ -1,0 +1,159 @@
+.procurandoTalentos{
+    /* width: 1440px; */
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px, 0px, 96px, 0px;
+    gap: 64px;
+    background-color: aqua;
+}
+
+.procurandoTalentos-divisao{
+    width: 1280px;
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.procurandoTalentos-divisao-divisao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.procurandoTalentos-paragrafo-decorado{
+    width: 125px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 4px, 12px, 4px, 12px;
+    background-color: #8E24240D;
+    color: var(--vermelho-basico);
+}
+
+.procurandoTalentos-titulo{
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+
+.procurandoTalentos-paragrafo{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: var(--cinza-basico);
+}
+
+/*FOCO \|/*/
+.vagas-abertas{
+    width: 1280px;
+    height: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+.vagas-abertas-secao{
+    width: 1280px;
+    height: 360px;
+    padding: 0px, 32px, 0px, 32px;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    gap: 64px;
+}
+
+.vagas-abertas2{
+    width: 1280px;
+    height: 518px;
+    padding: 0px 32px 0px 32px;
+    gap: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.vagas-abertas-secao-container{
+    /* width: 770px; */
+    /* gap: 24px; */
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vagas-abertas-secao-container-titulo{
+    width: 770px;
+    height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--preto-basicov2);
+    background-color: lavenderblush;
+}
+
+.vagas-abertas-secao{
+    width: 600px;
+    height: 300px;
+    gap: 24px;
+}
+
+.vagas-abertas-secao-container-itens{
+    width: 770px;
+    height: 360px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.vagas-abertas-secao-container-item{
+    width: 768px;
+    height: 136px;
+    border-radius: 16px;
+    border: 1px;
+    gap: 24px;
+    background-color: blueviolet;
+    border-color: var(--cinza-basico);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.vagas-abertas-secao-container-item-cargo{
+    width: 720px;
+    height: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: brown;
+    padding-left: 24px;
+    color: var(--preto-basicov2);
+}
+
+.vagas-abertas-p-cinza-divisao{
+    width: 720px;
+    height: 24px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vagas-abertas-p-cinza{
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 24px;
+    color: var(--cinza-basico);
+    background-color: black;
+}
