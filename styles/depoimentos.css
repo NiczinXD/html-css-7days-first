@@ -1,0 +1,58 @@
+.depoimentos{
+    /* width: 1440px; */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.depoimentos-container{
+    width: 1280px;
+    height: 404px;
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.depoimentos-container-conteudo-parte{
+    height: 404px;
+    border-radius: 16px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    background-color: red; /*Depois de concluir o corpo da pagina, lembrar de adicionar C3191908 ao background*/
+}
+
+.depoimentos-conteudo-p-vermelho{
+    width: 1088px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--vermelho-basico);
+}
+
+.depoimentos-conteudo-titulo{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--preto-basicov2);
+}
+
+.desenvolvedora-julia{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--preto-basicov2);
+}
+
+.desenvolvedora-web{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cinza-basico);
+}

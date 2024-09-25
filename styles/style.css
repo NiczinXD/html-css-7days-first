@@ -2,6 +2,7 @@
 @import url("apresentacao.css");
 @import url("numeros.css");
 @import url(procuraDeTalentos.css);
+@import url(depoimentos.css);
 
 :root{
     --preto-basico: #3A404E;
