@@ -2,7 +2,7 @@
     /* width: 1440px; */
     height: 500px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 
@@ -11,6 +11,7 @@
     height: 404px;
     gap: 32px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 

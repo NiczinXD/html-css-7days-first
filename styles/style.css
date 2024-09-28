@@ -3,11 +3,13 @@
 @import url("numeros.css");
 @import url(procuraDeTalentos.css);
 @import url(depoimentos.css);
+@import url(formulario.css);
 
 :root{
     --preto-basico: #3A404E;
     --preto-basicov2: #101828;
     --cinza-basico: #667085;
+    --cinza-basicov2: #98A2B3;
     --vermelho-basico: #8E2424;
     --branco: #FFFFFF;
     --hover-links-link: #333333;
