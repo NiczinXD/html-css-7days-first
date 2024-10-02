@@ -120,7 +120,7 @@
     width: 768px;
     height: 136px;
     border-radius: 16px;
-    border: 1px;
+    border: 1px solid;
     gap: 24px;
     background-color: blueviolet;
     border-color: var(--cinza-basico);
