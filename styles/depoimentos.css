@@ -25,7 +25,7 @@
     justify-content: center;
     text-align: center;
     gap: 32px;
-    background-color: red; /*Depois de concluir o corpo da pagina, lembrar de adicionar C3191908 ao background*/
+    background-color: var(--branco); /*Depois de concluir o corpo da pagina, lembrar de adicionar C3191908 ao background*/
 }
 
 .depoimentos-conteudo-p-vermelho{

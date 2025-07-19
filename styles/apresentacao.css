@@ -2,7 +2,7 @@
     display: flex;
     height: 405px;
     justify-content: center;
-    background-color: black;
+    background-color: var(--branco);
 }
 
 .secao__apresentacao-divisao{
@@ -12,7 +12,7 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-color: aqua;
+    background-color: var(--branco);
 }
 
 .secao__apresentacao-texto{

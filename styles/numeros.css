@@ -4,7 +4,7 @@
     padding-bottom: 96px;
     display: flex;
     justify-content: center;
-    background-color: yellow;
+    background-color: var(--branco);
 }
 
 .numeros-divisao{
@@ -12,7 +12,7 @@
     height: 192px;
     justify-content: space-between;
     display: flex;
-    background-color: aquamarine;
+    background-color: var(--branco);
 }
 
 .numeros-divisao-numero{
@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    background-color: azure;
+    background-color: var(--branco);
 }
 
 .numeros-divisao-numero-titulo{

@@ -1,6 +1,6 @@
 .cabecalho{
     display: flex;
-    background-color: black;
+    background-color: var(--branco);
     height: 80px;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: aquamarine;
+    background-color: var(--branco);
 }
 
 .cabecalho__div-logo{
@@ -41,7 +41,7 @@
     /*gap: 4px; */
     display: flex;
     text-decoration: none;
-    background-color: azure;
+    background-color: var(--branco);
 }
 
 .cabecalho__div-link-link{

@@ -6,7 +6,7 @@
     align-items: center;
     padding: 96px, 0px, 96px, 0px;
     gap: 64px;
-    background-color: aqua;
+    background-color: var(--branco);
 }
 
 .procurandoTalentos-divisao{
@@ -16,13 +16,14 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: var(--branco);
 }
 
 .procurandoTalentos-divisao-divisao{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px;
 }
 
 .procurandoTalentos-paragrafo-decorado{
@@ -40,6 +41,7 @@
     font-weight: 600;
     font-size: 36px;
     text-align: center;
+    padding: 28px
 }
 
 .procurandoTalentos-paragrafo{
@@ -57,7 +59,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: yellow;
+    background-color: var(--branco);
 }
 
 .vagas-abertas-secao{
@@ -66,7 +68,7 @@
     padding: 0px, 32px, 0px, 32px;
     display: flex;
     justify-content: center;
-    background-color: bisque;
+    background-color: var(--branco);
     gap: 64px;
 }
 
@@ -83,7 +85,7 @@
 .vagas-abertas-secao-container{
     /* width: 770px; */
     /* gap: 24px; */
-    background-color: blue;
+    background-color: var(--branco);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -96,7 +98,7 @@
     font-size: 20px;
     line-height: 30px;
     color: var(--preto-basicov2);
-    background-color: lavenderblush;
+    background-color: var(--branco);
 }
 
 .vagas-abertas-secao{
@@ -122,7 +124,7 @@
     border-radius: 16px;
     border: 1px solid;
     gap: 24px;
-    background-color: blueviolet;
+    background-color: var(--branco);
     border-color: var(--cinza-basico);
     display: flex;
     flex-direction: column;
@@ -135,7 +137,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    background-color: brown;
+    background-color: var(--branco);
     padding-left: 24px;
     color: var(--preto-basicov2);
 }
@@ -155,5 +157,5 @@
     line-height: 24px;
     padding-left: 24px;
     color: var(--cinza-basico);
-    background-color: black;
+    background-color: var(--branco);
 }
